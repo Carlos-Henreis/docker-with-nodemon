@@ -1,0 +1,26 @@
+{
+  "name": "docker-with-nodemon",
+  "version": "1.0.0",
+  "description": "Reload nodeJs processes on file save in Docker with Nodemon",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Carlos-Henreis/docker-with-nodemon.git"
+  },
+  "author": "Carlos Henrique Reis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Carlos-Henreis/docker-with-nodemon/issues"
+  },
+  "homepage": "https://github.com/Carlos-Henreis/docker-with-nodemon#readme",
+  "dependencies": {
+    "express": "^4.17.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
